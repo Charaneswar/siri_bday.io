@@ -42,14 +42,14 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
-	},2000);
+	},5000);
 
 	setTimeout(function(){
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#balloons_flying').fadeIn('slow');
 		});
-	},2000);
+	},7000);
 
 	function loopOne() {
 		var randleft = 1000*Math.random();
@@ -122,21 +122,21 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');
 		});
-	},2000);	
+	},10000);	
 
 	setTimeout(function(){
 		$('.cake').fadeIn('slow');
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		});
-	},2000);
+	},13000);
 
 	setTimeout(function(){
 		$('.fuego').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
-	},2000);
+	},15000);
 
 		
 	setTimeout(function(){
@@ -162,7 +162,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
-	},2000);
+	},18000);
 	
 	setTimeout(function(){
 		$(this).fadeOut('slow');
@@ -192,7 +192,7 @@ $('document').ready(function(){
 		
 		msgLoop(0);
 		
-	},2000);
+	},20000);
 });
 
 
